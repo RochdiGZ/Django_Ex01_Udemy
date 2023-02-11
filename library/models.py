@@ -7,7 +7,7 @@ class Author(models.Model):
     wikipedia = models.URLField(blank=True)
 
     def __str__(self):
-        return  f"{self.firstname} {self.lastname}"
+        return f"{self.firstname} {self.lastname}"
 
 
 class Book(models.Model):
